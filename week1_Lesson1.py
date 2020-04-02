@@ -35,5 +35,6 @@ print(my_sorted_list)
 
 result1 = my_frequency_with_dict(my_sorted_list) 
 result2 = my_frequency_with_list_of_tuples(my_sorted_list)
-print(result1),print(result2)
+print(result1)
+print(result2)
 
