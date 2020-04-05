@@ -1,0 +1,3 @@
+Mod: 9
+Medyan: 48
+Ortalama: 44.0
