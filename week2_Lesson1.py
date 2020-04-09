@@ -13,9 +13,9 @@ print(p)
 
 expr = x**2 - y**2
 factors = factor(expr)
-print(factors)
+print("Factors: ",factors)
 expands = expand(factors)
-print(expands)
+print("Expands: ",expands)
 
 expr = x**3 + 3*x**2*y + 3*x*y**2 + y**3
 factors = factor(expr)

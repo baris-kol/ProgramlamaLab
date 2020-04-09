@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 sigma = Symbol('sigma')
 x = Symbol('x')
 mu = Symbol('mu')
-
+pprint(sym.exp(x))
 part_1 = 1/(sym.sqrt(2*sym.pi*sigma**2))
 part_2 = sym.exp(-1*((x-mu)**2)/(2*sigma**2))
 my_gauss_function = part_1*part_2
