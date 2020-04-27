@@ -33,5 +33,5 @@ def max_of_two(a,b):
 def max_of_three(a,b,c):
     return max_of_two(a,max_of_two(b,c))
 
-List_1 = [4,-3,5,-2,-1,2,6,-2]
+List_1 = [4,-3,5,-2,-1,2,6,-1]
 print(my_f_2(List_1))
