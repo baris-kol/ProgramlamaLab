@@ -1,6 +1,6 @@
 """
 180401073-Barış KOL
-Github:     
+Github: https://github.com/baris-kol/ProgramlamaLab    
 """
 def min_heapify(array, i):
     left = 2 * i + 1
