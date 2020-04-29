@@ -35,13 +35,11 @@ def insertItemToHeap(myheap_1,item):
     insertedHeap=heapsort(myheap_1)
     return insertedHeap
     
-def removeItemFrom(myheap_1,item):
+def removeItemFrom(myheap_1):
     myheap_1 = myheap_1.copy()
-    for i in range (len(myheap_1)-1):
-        if(myheap_1[i] == item):
-            myheap_1[i], myheap_1[-1] = myheap_1[-1], myheap_1[i] 
-            del(myheap_1[-1])
-            removedHeap = heapsort(myheap_1)
+    myheap_1[0], myheap_1[-1] = myheap_1[-1], myheap_1[0] 
+    del(myheap_1[-1])
+    removedHeap = heapsort(myheap_1)
     return removedHeap  
   
 my_array_1 = [8,10,3,4,7,15,1,2,16]
@@ -55,5 +53,5 @@ print(my_heap_array)
 insertionHeap=insertItemToHeap(my_array_2,9)
 print(insertionHeap)
 
-RemovedHeap=removeItemFrom(insertionHeap,8)
+RemovedHeap=removeItemFrom(insertionHeap)
 print(RemovedHeap)
